@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: url-shortener-backend
+    env: python
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: SECRET_KEY
+        value: your-secret-key-here
+      - key: FRONTEND_URL
+        value: https://your-frontend-domain.com
+      - key: ADMIN_IPS
+        value: 127.0.0.1,::1
+    autoDeploy: true
