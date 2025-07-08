@@ -1,0 +1,52 @@
+{
+  "hello": {
+    "id": "f4e3cc4f-0778-4540-ad39-66c499e0fa9b",
+    "original_url": "https://discord.com/channels/1390707148727521404/1392168771996876880",
+    "created_at": 1751993995.8223717,
+    "expire_at": null,
+    "clicks": 0,
+    "password": "123",
+    "user_id": "bc2107c0-31be-4ff4-a74c-7603e0860c24",
+    "custom_alias": "hello"
+  },
+  "adibharwa": {
+    "id": "823db2db-119d-4df2-98bb-8bce5d3e890f",
+    "original_url": "https://discord.com/channels/1390707148727521404/1390707149214191790",
+    "created_at": 1751994639.769185,
+    "expire_at": null,
+    "clicks": 0,
+    "password": "12345",
+    "user_id": "bc2107c0-31be-4ff4-a74c-7603e0860c24",
+    "custom_alias": "adibharwa"
+  },
+  "pranav": {
+    "id": "23b5bc87-6d29-45fb-b559-89f51e022c75",
+    "original_url": "https://discord.com/channels/1390707148727521404/1390707149214191790",
+    "created_at": 1751995191.874857,
+    "expire_at": null,
+    "clicks": 0,
+    "password": "12345",
+    "user_id": "bc2107c0-31be-4ff4-a74c-7603e0860c24",
+    "custom_alias": "pranav"
+  },
+  "hello1": {
+    "id": "ed5d5b6b-6d50-4072-aa74-bbc115288b71",
+    "original_url": "https://discord.com/channels/1390707148727521404/1390707149214191790",
+    "created_at": 1751995737.6968966,
+    "expire_at": null,
+    "clicks": 1,
+    "password": "12345",
+    "user_id": "bc2107c0-31be-4ff4-a74c-7603e0860c24",
+    "custom_alias": "hello1"
+  },
+  "github": {
+    "id": "49fcaa3b-83b8-41c0-a810-d99010559817",
+    "original_url": "https://github.com/mekaushikranjan?tab=overview&from=2024-12-01&to=2024-12-31",
+    "created_at": 1751996361.3224611,
+    "expire_at": null,
+    "clicks": 1,
+    "password": "12345",
+    "user_id": "bc2107c0-31be-4ff4-a74c-7603e0860c24",
+    "custom_alias": "github"
+  }
+}
