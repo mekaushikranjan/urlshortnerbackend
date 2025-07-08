@@ -12,9 +12,9 @@ services:
       - key: PYTHON_VERSION
         value: 3.11.9
       - key: SECRET_KEY
-        value: your-secret-key-here
+        value: TZHYviBKOZ5lxf91DcaUJkMakGlY9Yo_xNb8rls5KO4
       - key: FRONTEND_URL
-        value: https://your-frontend-domain.com
+        value: https://url-shortner-6d4v.onrender.com
       - key: ADMIN_IPS
         value: 127.0.0.1,::1
     autoDeploy: true
