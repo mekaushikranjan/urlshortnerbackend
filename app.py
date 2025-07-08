@@ -8,7 +8,11 @@ from dotenv import load_dotenv
 
 app = Flask(__name__)
 app.secret_key = os.getenv('SECRET_KEY')
-CORS(app, supports_credentials=True)
+FRONTEND_URL = os.getenv('FRONTEND_URL')
+if FRONTEND_URL:
+    CORS(app, origins=[FRONTEND_URL], supports_credentials=True)
+else:
+    CORS(app, supports_credentials=True)
 
 URL_FILE = 'data/urls.json'
 ANALYTICS_FILE = 'data/analytics.json'
